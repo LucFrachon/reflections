@@ -15,8 +15,17 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	To ensure this, all you have to do is make sure you only add files to the 
+	staging area by logical groups, and then use diff to ensure that the changes
+	that are being staged are all related. The subsequent commit will only 
+	contain logically tied changes. 
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+    When building a prediction model, we may want to try different parameters
+    to see which one leads to the more accurate results. In such cases, it is
+    useful to be able to work on slightly different versions in parallel.
 
 How do the diagrams help you visualize the branch structure?
 
