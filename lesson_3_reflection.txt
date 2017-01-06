@@ -42,7 +42,13 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Without Git / GitHub, coordination between team members is paramount to 
+    ensure that no one undoes anyone else's work. This would require accurate
+    tracking spreadsheets, frequent meetings and phone calls etc.
+    However in some cases this kind of direct communication can actually be
+    a good thing to make sure everyone understands exactly what they have to do.
+    The short messages and comments that GitHub promotes might lead to misunder-
+    standings.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
