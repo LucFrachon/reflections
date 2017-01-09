@@ -53,4 +53,12 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Very small changes such as typos in comments or documentations (ie. changes
+    that cannot break code or introduce bugs) are probably ok to perform on the 
+    master branch, however anything else should be performed on a separate 
+    branch and reviewed / tested before merging to master.
+    While working only on master has the benefit of avoiding merge conflicts
+    (and therefore manual conflict resolutions), it also means that we cannot
+    maintain stable production code at all times. If something goes wrong, you 
+    cannot revert to the latest stable version without losing
+    all the work that has been done since then.
